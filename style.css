@@ -131,15 +131,15 @@ section {
 }
 
 .hero-img img {
-  width: 400px;
+  width: 370px;
   border-radius: 210px;
   margin: 10% 0 0 20%;
   height: auto;
-  transition: all 3s linear; /* la transicion es lineal*/
+  transition: all 2s linear; /* la transicion es lineal*/
 }
 
 .hero-img img:hover {
-  width: 450px;
+  width: 420px;
   border-radius: 260px;
   opacity: 0.6;
 }
@@ -292,9 +292,9 @@ section {
     margin: 7px 0;
   }
 
-  #menu-toggle:checked + label.menu-icon-action + ul {
+  .navlist.open {
     right: 0;
-    width: 100vw;
+    width: 100vh;
     height: 100vh;
   }
 }
