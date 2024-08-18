@@ -45,8 +45,8 @@ header {
 .logo {
   /* font-size: 30px;
   font-weight: 800; */
-  height: 5rem;
-  width: 5rem;
+  height: 6rem;
+  width: 6rem;
 }
 .navlist {
   display: flex; /*ponemos los elementos en linea*/
@@ -55,7 +55,7 @@ header {
 .navlist a {
   /*para trabajar los a dentro de la lista*/
   margin-left: 60px;
-  font-size: 15px;
+  font-size: 18px;
   font-weight: 600;
   border-bottom: 2px solid transparent; /* este es un subrayado transparente*/
   transition: all; /*esi es para transicioanr todas las caract del .navlist a */
@@ -227,7 +227,6 @@ section {
   }
 
   .hero-img img {
-    width: 80%;
     margin: 10% 0 0 10%;
     width: 300px;
   }
@@ -249,10 +248,6 @@ section {
 }
 
 @media (max-width: 768px) {
-  .menu-icon-action {
-    display: block;
-  }
-
   #menu-icon {
     display: block;
   }
